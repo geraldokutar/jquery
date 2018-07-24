@@ -4,5 +4,8 @@ jQuery(document).ready(function(){
   });
   jQuery("p").click(function(){
     alert("This is a paragragh. ");
+  });
+  jQuery("img").click(function(){
+    alert("this is an image.");
   })
 })
